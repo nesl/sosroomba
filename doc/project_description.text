@@ -9,7 +9,7 @@ will be connected to a MicaZ mote's UART interface. Through this
 interface, the mote will receive and send commands.
 
 To visualize the robot's movement, we want a GUI which shows all the
-input and output sent and reveived from the robot by the mote. The GUI
+input and output sent and received from the robot by the mote. The GUI
 will run on a stationary PC to which a SOS basestation is
 connected. The basestation talks over the wireless channel to the mote
 connected to the robot. The guy should look similar to the one found
