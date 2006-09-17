@@ -1,0 +1,29 @@
+SOS Roomba
+==========
+
+The goal of the project is to implement the full set of SCI commands
+which the iRobot Roomba understands (see [1] for more details about
+the SCI interface) in a module which can be run in SOS, an operating
+system for mote-class wireless sensor networks [2]. The iRobot Roomba
+will be connected to a MicaZ mote's UART interface. Through this
+interface, the mote will receive and send commands.
+
+To visualize the robot's movement, we want a GUI which shows all the
+input and output sent and reveived from the robot by the mote. The GUI
+will run on a stationary PC to which a SOS basestation is
+connected. The basestation talks over the wireless channel to the mote
+connected to the robot. The guy should look similar to the one found
+in the RoombaComm 0.95 Java application [3].
+
+For more information on hacking the Roomba see [4]. For an inspiration
+of the SOS module and what it should be able to do see [5]. Some
+random Roomba hacking projects [6].
+
+
+
+[1] http://www.irobot.com/images/consumer/hacker/Roomba_SCI_Spec_Manual.pdf
+[2] http://nesl.ee.ucla.edu/projects/sos-1.x/
+[3] http://todbot.com/blog/category/roomba/
+[4] http://www.roombareview.com/chat/viewforum.php?f=4
+[5] http://pyrorobotics.org/?page=Using_20the_20Roomba
+[6] http://roomba.pbwiki.com/
